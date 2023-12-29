@@ -1,0 +1,23 @@
+@import "../styles/variables";
+
+.cardBanner {
+  display: flex;
+  position: relative;
+  margin-inline: 100px;
+  justify-content: center;
+  height: 13rem;
+  margin-bottom: 30px;
+}
+.titlebanner {
+  color: $secondary-color;
+  position: absolute;
+  top: 54px;
+  font-weight: 500;
+  font-size: 48px;
+}
+.imgbanner {
+  border-radius: 25px;
+  object-fit: cover;
+  width: 100%;
+  filter: brightness(60%);
+}
