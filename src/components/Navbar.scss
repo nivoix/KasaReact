@@ -1,0 +1,50 @@
+@import "../styles/variables";
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px;
+  margin-top: 40px;
+  margin-inline: 100px;
+}
+
+.navbar__link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 2em;
+}
+.navbar__link a {
+  color: $primary-color;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 500;
+}
+.navbar__link a:hover {
+  text-decoration: underline;
+}
+.navbar__link a.active {
+  text-decoration: underline;
+}
+@media screen and (width <= $screen-tablet) {
+  .navbar {
+    margin: 20px;
+  }
+  .navbar__link {
+    gap: 20px;
+    text-transform: uppercase;
+  }
+  .navbar__link a {
+    font-size: 12px;
+  }
+}
+@media screen and (width <= $screen-mobile) {
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar__link {
+    margin-top: 20px;
+    gap: 60px;
+  }
+}
