@@ -5,13 +5,17 @@
   position: relative;
   margin-inline: 100px;
   justify-content: center;
-  height: 13rem;
+  align-items: center;
+  height: 230px;
   margin-bottom: 30px;
+}
+.cardtitlebanner {
+  position: absolute;
+  display: flex;
+  gap: 4px;
 }
 .titlebanner {
   color: $secondary-color;
-  position: absolute;
-  top: 54px;
   font-weight: 500;
   font-size: 48px;
 }
@@ -19,5 +23,29 @@
   border-radius: 25px;
   object-fit: cover;
   width: 100%;
+  height: inherit;
   filter: brightness(60%);
+}
+
+@media screen and (width <= 1024px) {
+  .cardBanner {
+    margin: 30px;
+  }
+}
+
+@media screen and (width <= $screen-tablet) {
+  .titlebanner {
+    margin: 0;
+    font-size: 24px;
+  }
+  .cardBanner {
+    height: 111px;
+    margin: 20px;
+  }
+}
+@media screen and (width <= $screen-mobile) {
+  .cardtitlebanner {
+    display: block;
+    left: 16px;
+  }
 }

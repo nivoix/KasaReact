@@ -10,7 +10,12 @@ const Banner = (props) => {
         src={props.imageURL}
         alt="bannière d'un paysage"
       ></img>
-      {props.title && <h1 className="titlebanner">{props.title}</h1>}
+      {props.title1 && (
+        <div className="cardtitlebanner">
+          <h1 className="titlebanner">{props.title1}</h1>
+          <h1 className="titlebanner">{props.title2}</h1>
+        </div>
+      )}
     </div>
   );
 };

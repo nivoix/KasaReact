@@ -27,6 +27,12 @@
   }
 }
 
+@media screen and (width <= 1024px) {
+  .navbar {
+    margin: 30px;
+  }
+}
+
 @media screen and (width <= $screen-tablet) {
   .navbar {
     margin: 20px;
