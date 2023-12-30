@@ -1,6 +1,7 @@
 import Banner from "../components/Banner";
 import imageBannerHome from "../assets/ImageBannerHome.png";
 import ApartmentGrid from "../components/ApartmentGrid";
+import React from "react";
 
 const Index = () => {
   return (

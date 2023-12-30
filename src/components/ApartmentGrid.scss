@@ -1,8 +1,36 @@
 @import "../Styles/variables.scss";
 
 .apartmentGrid {
-  background-color: $tertiary-color;
-  height: 300px;
-  border: 2px solid red;
+  margin-inline: 100px;
+  padding: 55px 4% 55px 4%;
+  background-color: #f6f6f6;
+  height: auto;
   border-radius: 25px;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: 3rem;
+}
+
+@media screen and (width <= 1024px) {
+  .apartmentGrid {
+    margin: 30px;
+    padding: 44px;
+    gap: 44px;
+  }
+}
+
+@media screen and (width <= $screen-tablet) {
+  .apartmentGrid {
+    margin: 20px;
+    grid-template-columns: 45% 45%;
+  }
+}
+
+@media screen and (width <= $screen-mobile) {
+  .apartmentGrid {
+    grid-template-columns: 100%;
+    background: none;
+    padding: 0;
+    gap: 20px;
+  }
 }

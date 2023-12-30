@@ -1,0 +1,43 @@
+@import "../Styles/variables.scss";
+
+.apartmentCard {
+  position: relative;
+  height: 23vw;
+  border-radius: 10px;
+}
+
+.apartmentCard__Img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.apartmentCard__Title {
+  position: absolute;
+  bottom: 2px;
+  left: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+
+@media screen and (width <= 1024px) {
+  .apartmentCard__Title {
+    bottom: 2px;
+    left: 10px;
+  }
+  .apartmentCard__Title {
+    font-size: 14px;
+  }
+}
+
+@media screen and (width <= $screen-mobile) {
+  .apartmentCard {
+    height: 255px;
+  }
+  .apartmentCard__Title {
+    left: 10px;
+    bottom: 1px;
+  }
+}

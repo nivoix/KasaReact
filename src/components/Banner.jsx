@@ -1,5 +1,4 @@
 import "./Banner.scss";
-
 import React from "react";
 
 const Banner = (props) => {
