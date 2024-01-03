@@ -1,7 +1,6 @@
 @import "../Styles/variables.scss";
 
 .apartmentGrid {
-  margin-inline: 100px;
   padding: 55px 4% 55px 4%;
   background-color: #f6f6f6;
   height: auto;
@@ -13,7 +12,6 @@
 
 @media screen and (width <= 1024px) {
   .apartmentGrid {
-    margin: 30px;
     padding: 44px;
     gap: 44px;
   }
@@ -21,7 +19,6 @@
 
 @media screen and (width <= $screen-tablet) {
   .apartmentGrid {
-    margin: 20px;
     grid-template-columns: 45% 45%;
   }
 }

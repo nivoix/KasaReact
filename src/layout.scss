@@ -1,5 +1,21 @@
+@import "./Styles/variables.scss";
+
 body {
   margin: 0;
   padding: 0;
   font-family: Montserrat;
+}
+main {
+  margin-inline: 100px;
+}
+@media screen and (width <= 1024px) {
+  main {
+    margin-inline: 30px;
+  }
+}
+
+@media screen and (width <= $screen-tablet) {
+  main {
+    margin-inline: 20px;
+  }
 }

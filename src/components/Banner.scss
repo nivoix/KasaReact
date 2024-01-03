@@ -3,7 +3,6 @@
 .cardBanner {
   display: flex;
   position: relative;
-  margin-inline: 100px;
   justify-content: center;
   align-items: center;
   height: 230px;
@@ -27,12 +26,6 @@
   filter: brightness(60%);
 }
 
-@media screen and (width <= 1024px) {
-  .cardBanner {
-    margin: 30px;
-  }
-}
-
 @media screen and (width <= $screen-tablet) {
   .titlebanner {
     margin: 0;
@@ -40,7 +33,6 @@
   }
   .cardBanner {
     height: 111px;
-    margin: 20px;
   }
 }
 @media screen and (width <= $screen-mobile) {

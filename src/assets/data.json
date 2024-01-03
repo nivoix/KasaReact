@@ -24,7 +24,7 @@
       "Frigo",
       "WIFI"
     ],
-    "Mots clés": ["Batignolle", "Montmartre"]
+    "Tags": ["Batignolle", "Montmartre"]
   },
   {
     "id": "b9123946",
@@ -40,7 +40,7 @@
     ],
     "description": "Profitez du charme de la vie parisienne dans un magnifique appartement. A 3 minutes à pied du Canl Saint Martin, vous serez proche des transports, mais également de nombreux commerces. L'appartement est tout équipé, et possède également un parking pour ceux qui souhaitent se déplacer en voiture.",
     "hôte": {
-      "name": "Della Case",
+      "nom": "Della Case",
       "photo": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-1.jpg"
     },
     "note": "4",
@@ -53,7 +53,7 @@
       "Cuisine équipée",
       "Télévision"
     ],
-    "Mots clés": ["Canal Saint Martin", "République", "Appartement"]
+    "Tags": ["Canal Saint Martin", "République", "Appartement"]
   },
   {
     "id": "46d188c5",
@@ -73,7 +73,7 @@
     "note": "3",
     "location": "Île de France - Paris 20e",
     "équipements": ["Wifi", "Cuisine équipée", "Télévision", "Sèche Cheveux"],
-    "Mots clés": ["Buttes Chaumont", "Laumière", "Studio"]
+    "Tags": ["Buttes Chaumont", "Laumière", "Studio"]
   },
   {
     "id": "7af00cd6",
@@ -87,7 +87,7 @@
     ],
     "description": "Venez découvrir Paris en séjournant dans ce nid douillet au coeur du 11ème. La vue sur le parc résidentiel saura vous reposer de vos longues journées de tourisme dans la capitale française. Et pour les plus fêtards d'entre vous, la rue Jean Pierre Timbaud vous permettra de découvrir la vie nocturne parisienne à seulement 5 minutes de l'appartement.",
     "hôte": {
-      "name": "Della Case",
+      "nom": "Della Case",
       "photo": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-1.jpg"
     },
     "note": "3",
@@ -99,7 +99,7 @@
       "Climatisation",
       "Télévision"
     ],
-    "Mots clés": ["Parmentier", "Marais", "Parc", "Vie nocturne"]
+    "Tags": ["Parmentier", "Marais", "Parc", "Vie nocturne"]
   },
   {
     "id": "0979876d",
@@ -127,7 +127,7 @@
       "Chambre Séparée",
       "Parking"
     ],
-    "Mots clés": ["Goncourt", "Proche commerces"]
+    "Tags": ["Goncourt", "Proche commerces"]
   },
   {
     "id": "f72a452f",
@@ -142,13 +142,13 @@
     ],
     "description": "Venez vous imprégner de la culture parisienne dans cet ancien studio d'artiste décoré avec goût, au coeur de Montmartre.",
     "hôte": {
-      "name": "Ligne Rolland",
+      "nom": "Ligne Rolland",
       "photo": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-3.jpg"
     },
     "note": "5",
     "location": "Île de France - Paris 18e",
     "équipements": ["Chambre Séparée", "Parking"],
-    "Mots clés": ["Montmartre", "Culture", "Charme"]
+    "Tags": ["Montmartre", "Culture", "Charme"]
   },
   {
     "id": "b4c67936",
@@ -175,7 +175,7 @@
       "Bureau",
       "Parking"
     ],
-    "Mots clés": ["Les transports", "Bon marché", "18ème"]
+    "Tags": ["Les transports", "Bon marché", "18ème"]
   },
   {
     "id": "bc6f7112",
@@ -191,7 +191,7 @@
     ],
     "description": "Ce superbe appartement vous surprendra par son charme. Entièrement refait à neuf, il est équipé avec goût. La taille des pièces vous fera douter que vous soyez à Paris. Mais il vous suffit de sortir pour voir que vous êtes au coeur des plus belles attractions de Paris : le Louvre, la Tour Eiffel, le Grand Palais sont à deux pas. À vous de venir découvrir Paris !",
     "hôte": {
-      "name": "Sébastien Fournier",
+      "nom": "Sébastien Fournier",
       "photo": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-5.jpg"
     },
     "note": "5",
@@ -204,7 +204,7 @@
       "Lit King Size",
       "Ascenseur"
     ],
-    "Mots clés": ["Luxe", "Tour Eiffel", "T3", "6ème"]
+    "Tags": ["Luxe", "Tour Eiffel", "T3", "6ème"]
   },
   {
     "id": "cb2f9222",
@@ -231,7 +231,7 @@
       "Wifi",
       "Parking"
     ],
-    "Mots clés": ["Montparnasse", "Commerces", "Famille"]
+    "Tags": ["Montparnasse", "Commerces", "Famille"]
   },
   {
     "id": "d60ca600",
@@ -258,7 +258,7 @@
       "Wifi",
       "Ascenseur"
     ],
-    "Mots clés": ["Père Lachaise", "11e", "Métro 3", "Métro 2"]
+    "Tags": ["Père Lachaise", "11e", "Métro 3", "Métro 2"]
   },
   {
     "id": "2cf259e1",
@@ -278,7 +278,7 @@
     "note": "4",
     "location": "Île de France - Paris 11e",
     "équipements": ["Clic-clac", "Quatre", "Sèche Cheveux", "Wifi"],
-    "Mots clés": ["Marais", "Studio", "Parc"]
+    "Tags": ["Marais", "Studio", "Parc"]
   },
   {
     "id": "5323c29b",
@@ -305,13 +305,7 @@
       "LA TÉLÉ",
       "Bouilloire"
     ],
-    "Mots clés": [
-      "Marais",
-      "République",
-      "Studio",
-      "Proche Métros",
-      "Commerces"
-    ]
+    "Tags": ["Marais", "République", "Studio", "Proche Métros", "Commerces"]
   },
   {
     "id": "af6d2d48",
@@ -338,7 +332,7 @@
       "Frigo",
       "Bouilloire"
     ],
-    "Mots clés": ["Forêt", "Nature", "Musée d'Écouen"]
+    "Tags": ["Forêt", "Nature", "Musée d'Écouen"]
   },
   {
     "id": "7cbb378e",
@@ -368,7 +362,7 @@
       "Cintres",
       "Équipements de base"
     ],
-    "Mots clés": ["Forêt", "Nature", "Grande maison"]
+    "Tags": ["Forêt", "Nature", "Grande maison"]
   },
   {
     "id": "ba55a0cc",
@@ -400,7 +394,7 @@
       "Micro-ondes",
       "Parking"
     ],
-    "Mots clés": ["Nature", "Groupe", "Maison"]
+    "Tags": ["Nature", "Groupe", "Maison"]
   },
   {
     "id": "1e181317",
@@ -419,7 +413,7 @@
       "photo": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-10.jpg"
     },
     "note": "3",
-    "localisation": "Île de France - La Défense",
+    "location": "Île de France - La Défense",
     "équipements": [
       "Baie vitrée",
       "Télévision",
@@ -429,7 +423,7 @@
       "Micro-ondes",
       "Parking"
     ],
-    "Mots clés": ["La Défense", "Grenier", "Luxe"]
+    "Tags": ["La Défense", "Grenier", "Luxe"]
   },
   {
     "id": "1e180563",
@@ -457,7 +451,7 @@
       "Wifi",
       "Micro-ondes"
     ],
-    "Mots clés": ["Vue Parc", "Apt de Charme"]
+    "Tags": ["Vue Parc", "Apt de Charme"]
   },
   {
     "id": "2139a317",
@@ -474,7 +468,7 @@
     "note": "2",
     "location": "Île de France - Paris 20e",
     "équipements": ["Bouilloire", "Wifi", "Micro-ondes"],
-    "Mots clés": ["Vue Parc", "Métro"]
+    "Tags": ["Vue Parc", "Métro"]
   },
   {
     "id": "6ff132c6",
@@ -499,7 +493,7 @@
       "Wifi",
       "Micro-ondes"
     ],
-    "Mots clés": ["Studio", "Charmante", "13e"]
+    "Tags": ["Studio", "Charmante", "13e"]
   },
   {
     "id": "cb02d69b",
@@ -522,6 +516,6 @@
       "Frigo",
       "Baignoire"
     ],
-    "Mots clés": ["Persienne", "Marais", "Rivoli"]
+    "Tags": ["Persienne", "Marais", "Rivoli"]
   }
 ]

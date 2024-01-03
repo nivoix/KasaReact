@@ -3,8 +3,6 @@ import ApartmentCard from "./ApartmentCard";
 import "./ApartmentGrid.scss";
 import data from "../assets/data.json";
 
-console.log(data);
-
 const ApartmentGrid = () => {
   return (
     <div className="apartmentGrid">
