@@ -24,7 +24,7 @@
       "Frigo",
       "WIFI"
     ],
-    "Tags": ["Batignolle", "Montmartre"]
+    "tags": ["Batignolle", "Montmartre"]
   },
   {
     "id": "b9123946",
@@ -53,7 +53,7 @@
       "Cuisine équipée",
       "Télévision"
     ],
-    "Tags": ["Canal Saint Martin", "République", "Appartement"]
+    "tags": ["Canal Saint Martin", "République", "Appartement"]
   },
   {
     "id": "46d188c5",
@@ -73,7 +73,7 @@
     "note": "3",
     "location": "Île de France - Paris 20e",
     "équipements": ["Wifi", "Cuisine équipée", "Télévision", "Sèche Cheveux"],
-    "Tags": ["Buttes Chaumont", "Laumière", "Studio"]
+    "tags": ["Buttes Chaumont", "Laumière", "Studio"]
   },
   {
     "id": "7af00cd6",
@@ -99,7 +99,7 @@
       "Climatisation",
       "Télévision"
     ],
-    "Tags": ["Parmentier", "Marais", "Parc", "Vie nocturne"]
+    "tags": ["Parmentier", "Marais", "Parc", "Vie nocturne"]
   },
   {
     "id": "0979876d",
@@ -127,7 +127,7 @@
       "Chambre Séparée",
       "Parking"
     ],
-    "Tags": ["Goncourt", "Proche commerces"]
+    "tags": ["Goncourt", "Proche commerces"]
   },
   {
     "id": "f72a452f",
@@ -148,7 +148,7 @@
     "note": "5",
     "location": "Île de France - Paris 18e",
     "équipements": ["Chambre Séparée", "Parking"],
-    "Tags": ["Montmartre", "Culture", "Charme"]
+    "tags": ["Montmartre", "Culture", "Charme"]
   },
   {
     "id": "b4c67936",
@@ -175,7 +175,7 @@
       "Bureau",
       "Parking"
     ],
-    "Tags": ["Les transports", "Bon marché", "18ème"]
+    "tags": ["Les transports", "Bon marché", "18ème"]
   },
   {
     "id": "bc6f7112",
@@ -204,7 +204,7 @@
       "Lit King Size",
       "Ascenseur"
     ],
-    "Tags": ["Luxe", "Tour Eiffel", "T3", "6ème"]
+    "tags": ["Luxe", "Tour Eiffel", "T3", "6ème"]
   },
   {
     "id": "cb2f9222",
@@ -231,7 +231,7 @@
       "Wifi",
       "Parking"
     ],
-    "Tags": ["Montparnasse", "Commerces", "Famille"]
+    "tags": ["Montparnasse", "Commerces", "Famille"]
   },
   {
     "id": "d60ca600",
@@ -258,7 +258,7 @@
       "Wifi",
       "Ascenseur"
     ],
-    "Tags": ["Père Lachaise", "11e", "Métro 3", "Métro 2"]
+    "tags": ["Père Lachaise", "11e", "Métro 3", "Métro 2"]
   },
   {
     "id": "2cf259e1",
@@ -278,7 +278,7 @@
     "note": "4",
     "location": "Île de France - Paris 11e",
     "équipements": ["Clic-clac", "Quatre", "Sèche Cheveux", "Wifi"],
-    "Tags": ["Marais", "Studio", "Parc"]
+    "tags": ["Marais", "Studio", "Parc"]
   },
   {
     "id": "5323c29b",
@@ -305,7 +305,7 @@
       "LA TÉLÉ",
       "Bouilloire"
     ],
-    "Tags": ["Marais", "République", "Studio", "Proche Métros", "Commerces"]
+    "tags": ["Marais", "République", "Studio", "Proche Métros", "Commerces"]
   },
   {
     "id": "af6d2d48",
@@ -332,7 +332,7 @@
       "Frigo",
       "Bouilloire"
     ],
-    "Tags": ["Forêt", "Nature", "Musée d'Écouen"]
+    "tags": ["Forêt", "Nature", "Musée d'Écouen"]
   },
   {
     "id": "7cbb378e",
@@ -362,7 +362,7 @@
       "Cintres",
       "Équipements de base"
     ],
-    "Tags": ["Forêt", "Nature", "Grande maison"]
+    "tags": ["Forêt", "Nature", "Grande maison"]
   },
   {
     "id": "ba55a0cc",
@@ -394,7 +394,7 @@
       "Micro-ondes",
       "Parking"
     ],
-    "Tags": ["Nature", "Groupe", "Maison"]
+    "tags": ["Nature", "Groupe", "Maison"]
   },
   {
     "id": "1e181317",
@@ -423,7 +423,7 @@
       "Micro-ondes",
       "Parking"
     ],
-    "Tags": ["La Défense", "Grenier", "Luxe"]
+    "tags": ["La Défense", "Grenier", "Luxe"]
   },
   {
     "id": "1e180563",
@@ -451,7 +451,7 @@
       "Wifi",
       "Micro-ondes"
     ],
-    "Tags": ["Vue Parc", "Apt de Charme"]
+    "tags": ["Vue Parc", "Apt de Charme"]
   },
   {
     "id": "2139a317",
@@ -468,7 +468,7 @@
     "note": "2",
     "location": "Île de France - Paris 20e",
     "équipements": ["Bouilloire", "Wifi", "Micro-ondes"],
-    "Tags": ["Vue Parc", "Métro"]
+    "tags": ["Vue Parc", "Métro"]
   },
   {
     "id": "6ff132c6",
@@ -493,7 +493,7 @@
       "Wifi",
       "Micro-ondes"
     ],
-    "Tags": ["Studio", "Charmante", "13e"]
+    "tags": ["Studio", "Charmante", "13e"]
   },
   {
     "id": "cb02d69b",
@@ -516,6 +516,6 @@
       "Frigo",
       "Baignoire"
     ],
-    "Tags": ["Persienne", "Marais", "Rivoli"]
+    "tags": ["Persienne", "Marais", "Rivoli"]
   }
 ]

@@ -24,14 +24,13 @@
   font-size: 18px;
   font-weight: 500;
   color: white;
+  filter: opacity(2);
 }
 
 @media screen and (width <= 1024px) {
   .apartmentCard__Title {
     bottom: 2px;
     left: 10px;
-  }
-  .apartmentCard__Title {
     font-size: 14px;
   }
 }

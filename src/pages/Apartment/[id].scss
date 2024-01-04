@@ -1,0 +1,47 @@
+@import "../../Styles/variables.scss";
+
+.apartmentCarroussel {
+  height: 415px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+}
+.apartmentDetails {
+  display: flex;
+}
+
+.apartmentInfos {
+  margin-right: auto;
+  width: 100%;
+}
+
+.apartmentTitle {
+  color: $primary-color;
+  font-weight: 500;
+  font-size: 36px;
+  margin-bottom: 0;
+}
+
+.apartmentLocation {
+  color: $primary-color;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.apartmentTags {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(115px, 160px));
+  gap: 1rem;
+}
+
+.ownerDetails {
+  display: flex;
+  color: #ff6060;
+  font-size: 18px;
+  font-weight: 500;
+  gap: 1rem;
+  align-items: center;
+  & img {
+    border-radius: 64px;
+  }
+}
