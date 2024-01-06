@@ -1,0 +1,56 @@
+@import "../Styles/variables.scss";
+
+.collapseCard {
+  width: 50%;
+}
+.bannerCollapseCard {
+  height: 52px;
+  display: flex;
+  color: $secondary-color;
+  padding-inline: 10px;
+  background-color: $primary-color;
+  border-radius: 5px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.collapseText {
+  transform: translateY(-100%);
+  position: relative;
+  z-index: -1;
+  //min-height: 9rem;
+  color: #ff6060;
+  padding: 20px;
+  background-color: #f6f6f6;
+  border-radius: 10px 10px 5px 5px;
+  //padding-bottom: 2px;
+  line-height: 26px;
+  & ul {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.hidden {
+  animation: trans 0.2s ease forwards;
+}
+@keyframes trans {
+  0% {
+    transform: translateY(-7px);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+.visible {
+  animation: translate 0.4s ease forwards;
+}
+
+@keyframes translate {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(-7px);
+  }
+}

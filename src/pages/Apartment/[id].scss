@@ -8,6 +8,7 @@
 }
 .apartmentDetails {
   display: flex;
+  margin: 20px 0;
 }
 
 .apartmentInfos {
@@ -19,19 +20,26 @@
   color: $primary-color;
   font-weight: 500;
   font-size: 36px;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .apartmentLocation {
   color: $primary-color;
   font-weight: 500;
   font-size: 18px;
+  margin-top: 2px;
 }
 
 .apartmentTags {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(115px, 160px));
   gap: 1rem;
+}
+
+.owner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .ownerDetails {
@@ -41,7 +49,25 @@
   font-weight: 500;
   gap: 1rem;
   align-items: center;
+  justify-content: flex-end;
   & img {
-    border-radius: 64px;
+    border-radius: 50%;
+    width: 70px;
   }
+}
+
+.ownerName {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  & p {
+    margin: 0;
+  }
+}
+
+.collapse {
+  display: flex;
+  gap: 6%;
+  font-size: 18px;
+  overflow: hidden;
 }

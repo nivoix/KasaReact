@@ -17,7 +17,7 @@
     },
     "note": "5",
     "location": "Île de France - Paris 17e",
-    "équipements": [
+    "equipements": [
       "Équipements de base",
       "Micro-ondes",
       "Douche italienne",
@@ -45,7 +45,7 @@
     },
     "note": "4",
     "location": "Île de France - Paris 10e",
-    "équipements": [
+    "equipements": [
       "Parking",
       "Sèche Cheveux",
       "Machine à laver",
@@ -72,7 +72,7 @@
     },
     "note": "3",
     "location": "Île de France - Paris 20e",
-    "équipements": ["Wifi", "Cuisine équipée", "Télévision", "Sèche Cheveux"],
+    "equipements": ["Wifi", "Cuisine équipée", "Télévision", "Sèche Cheveux"],
     "tags": ["Buttes Chaumont", "Laumière", "Studio"]
   },
   {
@@ -92,7 +92,7 @@
     },
     "note": "3",
     "location": "Île de France - Paris 11e",
-    "équipements": [
+    "equipements": [
       "Micro-ondes",
       "Wifi",
       "Chambre Séparée",
@@ -120,7 +120,7 @@
     },
     "note": "5",
     "location": "Île de France - Paris 10e",
-    "équipements": [
+    "equipements": [
       "Frigo Américain",
       "Sèche Cheveux",
       "Wifi",
@@ -147,7 +147,7 @@
     },
     "note": "5",
     "location": "Île de France - Paris 18e",
-    "équipements": ["Chambre Séparée", "Parking"],
+    "equipements": ["Chambre Séparée", "Parking"],
     "tags": ["Montmartre", "Culture", "Charme"]
   },
   {
@@ -167,7 +167,7 @@
     },
     "note": "3",
     "location": "Île de France - Paris 18e",
-    "équipements": [
+    "equipements": [
       "Salle de bains",
       "Frigo",
       "Wifi",
@@ -196,7 +196,7 @@
     },
     "note": "5",
     "location": "Île de France - Paris 6e",
-    "équipements": [
+    "equipements": [
       "Wifi",
       "Sèche Cheveux",
       "Machine à laver",
@@ -224,7 +224,7 @@
     },
     "note": "4",
     "location": "Île de France - Paris 14e",
-    "équipements": [
+    "equipements": [
       "Climatisation",
       "Machine à laver",
       "Sèche Cheveux",
@@ -250,7 +250,7 @@
     },
     "note": "3",
     "location": "Île de France - Paris 11e",
-    "équipements": [
+    "equipements": [
       "Vue Parc",
       "Chauffage",
       "Sèche linge",
@@ -277,7 +277,7 @@
     },
     "note": "4",
     "location": "Île de France - Paris 11e",
-    "équipements": ["Clic-clac", "Quatre", "Sèche Cheveux", "Wifi"],
+    "equipements": ["Clic-clac", "Quatre", "Sèche Cheveux", "Wifi"],
     "tags": ["Marais", "Studio", "Parc"]
   },
   {
@@ -297,7 +297,7 @@
     },
     "note": "3",
     "location": "Île de France - Paris 3e",
-    "équipements": [
+    "equipements": [
       "Rangements",
       "Allumé",
       "Sèche Cheveux",
@@ -325,7 +325,7 @@
     },
     "note": "5",
     "location": "Ile de France - Ecouen",
-    "équipements": [
+    "equipements": [
       "SDB",
       "Cuisine équipée",
       "Toilettes sèches",
@@ -352,7 +352,7 @@
     },
     "note": "4",
     "location": "Île de France - Arnouville",
-    "équipements": [
+    "equipements": [
       "SDB",
       "Cuisine équipée",
       "Frigo",
@@ -382,7 +382,7 @@
     },
     "note": "3",
     "location": "Île de France - Arnouville",
-    "équipements": [
+    "equipements": [
       "Bouilloire",
       "SDB",
       "Cuisine équipée",
@@ -407,14 +407,14 @@
       "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-4.jpg",
       "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-5.jpg"
     ],
-    "description": "Si vous êtes à la recherche de l'endroit idéal pour poser vos valises entre deux rdvs d'affaire, ne cherchez plus. Notre loft est l'endroit idéal. En plein coeur de la Défense, il dispose également de tous les équipements pour que vous soyez comme chez vous.",
+    "description": "Si vous êtes à la recherche de l'endroit idéal pour poser vos valises entre deux rdvs d'affaire, ne cherchez plus. Notre loft est l'endroit idéal. En plein coeur de la Défense, il dispose également de tous les equipements pour que vous soyez comme chez vous.",
     "hôte": {
       "nom": "Julie Donatella",
       "photo": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-10.jpg"
     },
     "note": "3",
     "location": "Île de France - La Défense",
-    "équipements": [
+    "equipements": [
       "Baie vitrée",
       "Télévision",
       "Quatre",
@@ -443,7 +443,7 @@
     },
     "note": "4",
     "location": "Île de France - Levallois",
-    "équipements": [
+    "equipements": [
       "Télévision",
       "Quatre",
       "Frigo",
@@ -467,7 +467,7 @@
     },
     "note": "2",
     "location": "Île de France - Paris 20e",
-    "équipements": ["Bouilloire", "Wifi", "Micro-ondes"],
+    "equipements": ["Bouilloire", "Wifi", "Micro-ondes"],
     "tags": ["Vue Parc", "Métro"]
   },
   {
@@ -486,7 +486,7 @@
     },
     "note": "4",
     "location": "Île de France - Paris 13e",
-    "équipements": [
+    "equipements": [
       "Équipements de base",
       "Quatre",
       "Frigo",
@@ -509,7 +509,7 @@
     },
     "note": "4",
     "location": "Île de France - Paris 13e",
-    "équipements": [
+    "equipements": [
       "Wifi",
       "Équipements de base",
       "Micro-ondes",

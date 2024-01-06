@@ -3,6 +3,8 @@ import datas from "../../assets/data.json";
 import Error from "../[...all]";
 import "./[id].scss";
 import Tags from "../../components/Tags";
+import Stars from "../../components/Stars";
+import Collapse from "../../components/Collapse";
 
 const Id = () => {
   const { id } = useParams();
@@ -29,19 +31,26 @@ const Id = () => {
             <Tags tags={selection.tags} />
           </div>
         </div>
-        <div>
+        <div className="owner">
           <div className="ownerDetails">
-            <div>
+            <div className="ownerName">
               <p>{selection.hôte.nom.split(" ")[0]}</p>
               <p>{selection.hôte.nom.split(" ")[1]}</p>
             </div>
             <img src={selection.hôte.photo} alt="profil" />
           </div>
-          <div>stars</div>
+          <Stars rating={selection.note} />
         </div>
       </div>
-      <div>DESCRIPTION</div>
-      <div>EQUIPEMENT</div>
+      <div className="collapse">
+        <Collapse title="Description" text={selection.description} />
+        <Collapse
+          title="Equipements"
+          text={selection.equipements.map((equip, index) => (
+            <ul key={index}>{equip}</ul>
+          ))}
+        />
+      </div>
     </>
   );
 };
