@@ -2,4 +2,11 @@
 
 .stars {
   display: flex;
+  height: 36px;
+}
+
+@media screen and (width <= $screen-tablet) {
+  .stars {
+    height: 13px;
+  }
 }

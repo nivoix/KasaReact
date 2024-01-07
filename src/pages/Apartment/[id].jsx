@@ -5,6 +5,7 @@ import "./[id].scss";
 import Tags from "../../components/Tags";
 import Stars from "../../components/Stars";
 import Collapse from "../../components/Collapse";
+import Carrousel from "../../components/Carrousel";
 
 const Id = () => {
   const { id } = useParams();
@@ -16,13 +17,8 @@ const Id = () => {
 
   return (
     <>
-      <div>
-        <img
-          className="apartmentCarroussel"
-          src={selection.cover}
-          alt="Apartment photo"
-        />
-      </div>
+      <Carrousel images={selection.photos} />
+
       <div className="apartmentDetails">
         <div className="apartmentInfos">
           <h1 className="apartmentTitle">{selection.title}</h1>

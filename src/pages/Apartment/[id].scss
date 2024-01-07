@@ -1,11 +1,5 @@
 @import "../../Styles/variables.scss";
 
-.apartmentCarroussel {
-  height: 415px;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 25px;
-}
 .apartmentDetails {
   display: flex;
   margin: 20px 0;
@@ -70,4 +64,38 @@
   gap: 6%;
   font-size: 18px;
   overflow: hidden;
+}
+
+@media screen and (width <= $screen-tablet) {
+  .apartmentDetails {
+    flex-direction: column;
+  }
+  .apartmentInfos {
+    margin-bottom: 20px;
+  }
+  .apartmentTitle {
+    font-size: 18px;
+  }
+  .apartmentLocation {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .apartmentTags {
+    grid-template-columns: repeat(auto-fit, minmax(84px, 103px));
+    height: auto;
+  }
+  .owner {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .ownerDetails {
+    font-size: 12px;
+    & img {
+      width: 32px;
+    }
+  }
+  .collapse {
+    flex-direction: column;
+  }
 }

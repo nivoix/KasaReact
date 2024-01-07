@@ -11,3 +11,10 @@
   font-size: 14px;
   align-items: center;
 }
+
+@media screen and (width <= $screen-tablet) {
+  .tag {
+    font-size: 10px;
+    height: 18px;
+  }
+}
