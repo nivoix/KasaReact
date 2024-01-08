@@ -14,18 +14,42 @@
   z-index: -1;
 }
 .on {
-  opacity: 1;
+  animation: opacityup 1.2s ease forwards;
+  //opacity: 1;
+}
+
+@keyframes opacityup {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 .off {
-  opacity: 0;
+  animation: opacitydown 1.2s ease forwards;
+  //opacity: 0;
+}
+
+@keyframes opacitydown {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 .drop {
   position: absolute;
   top: 43%;
+  cursor: pointer;
 }
 .right {
   right: 1%;
+  :hover {
+    background-color: $primary-color;
+  }
 }
 .left {
   left: 1%;

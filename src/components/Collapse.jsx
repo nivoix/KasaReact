@@ -1,6 +1,5 @@
 import React from "react";
 import { useState } from "react";
-import dropup from "../assets/dropup.png";
 import dropdown from "../assets/dropdown.png";
 import "./Collapse.scss";
 
@@ -17,7 +16,11 @@ const Collapse = (props) => {
     <div className={`collapseCard ${collapseCardShow}`}>
       <div className="bannerCollapseCard" onClick={show}>
         {props.title}
-        <img src={visible ? dropup : dropdown} alt="dropdown" />
+        <img
+          src={dropdown}
+          alt="dropdown"
+          className={visible ? "up" : "down"}
+        />
       </div>
       <div className={`collapseText ${collapseTextShow}`}>{props.text}</div>
     </div>
