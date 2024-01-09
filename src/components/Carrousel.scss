@@ -3,6 +3,7 @@
 .apartmentCarroussel {
   position: relative;
   height: 415px;
+  background-color: $tertiary-color;
 }
 
 .carrouselImg img {
@@ -11,32 +12,10 @@
   border-radius: 25px;
   width: 100%;
   height: 100%;
-  z-index: -1;
-}
-.on {
-  animation: opacityup 1.2s ease forwards;
-  //opacity: 1;
-}
-
-@keyframes opacityup {
-  0% {
-    opacity: 0;
-  }
-  100% {
+  opacity: 0;
+  &.on {
     opacity: 1;
-  }
-}
-.off {
-  animation: opacitydown 1.2s ease forwards;
-  //opacity: 0;
-}
-
-@keyframes opacitydown {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
+    transition: opacity 1.2s linear;
   }
 }
 

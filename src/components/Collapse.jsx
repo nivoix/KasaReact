@@ -6,14 +6,14 @@ import "./Collapse.scss";
 const Collapse = (props) => {
   const [visible, setvisible] = useState(false);
 
-  const collapseCardShow = visible ? "show" : "noShow";
-  const collapseTextShow = visible ? "visible" : "hidden";
+  //const collapseTextShow = visible ? "textVisible" : "collapseText";
 
   const show = () => {
     setvisible(!visible);
   };
+
   return (
-    <div className={`collapseCard ${collapseCardShow}`}>
+    <div className={`collapseCard ${visible ? "showCard" : "hideCard"}`}>
       <div className="bannerCollapseCard" onClick={show}>
         {props.title}
         <img
@@ -22,7 +22,9 @@ const Collapse = (props) => {
           className={visible ? "up" : "down"}
         />
       </div>
-      <div className={`collapseText ${collapseTextShow}`}>{props.text}</div>
+      <div className={`collapseText ${visible ? "textVisible" : "textHide"}`}>
+        {props.text}
+      </div>
     </div>
   );
 };

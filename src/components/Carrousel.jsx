@@ -29,7 +29,7 @@ const Carrousel = (props) => {
             src={image}
             key={i}
             alt="Apartment photos"
-            className={i === currentPicture ? "on" : "off"}
+            className={i === currentPicture ? "on" : ""}
           />
         ))}
       </div>
