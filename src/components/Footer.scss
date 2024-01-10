@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 .imgFooter {
   width: 4rem;
@@ -15,8 +15,12 @@
   color: $secondary-color;
 }
 @media screen and (width <= $screen-mobile) {
+  .cardFooter {
+    padding: 40px;
+  }
   .imgFooter {
     margin-top: 1rem;
+    width: 122px;
   }
   .textFooter {
     width: 130px;

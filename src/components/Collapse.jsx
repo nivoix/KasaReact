@@ -19,7 +19,7 @@ const Collapse = (props) => {
         <img
           src={dropdown}
           alt="dropdown"
-          className={visible ? "up" : "down"}
+          className={`dropdown ${visible ? "up" : "down"}`}
         />
       </div>
       <div className={`collapseText ${visible ? "textVisible" : "textHide"}`}>

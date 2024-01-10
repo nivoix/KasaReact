@@ -1,7 +1,7 @@
 @import "../Styles/variables.scss";
 
 .collapseCard {
-  width: 50%;
+  width: -webkit-fill-available;
   overflow: hidden;
   margin-bottom: 20px;
   &.showCard {
@@ -10,18 +10,18 @@
   }
   &.hideCard {
     max-height: 53px;
-    transition: max-height 2s ease-out;
+    transition: max-height 0.7s ease-out;
   }
 }
-
-.up {
-  transform: rotate(180deg);
-  transition: transform 0.4s linear;
-}
-
-.down {
-  transform: rotate(0);
-  transition: transform 0.4s linear;
+.dropdown {
+  &.up {
+    transform: rotate(180deg);
+    transition: transform 0.3s linear;
+  }
+  &.down {
+    transform: rotate(0);
+    transition: transform 0.3s linear;
+  }
 }
 
 .bannerCollapseCard {
@@ -54,38 +54,19 @@
   &.textVisible {
     transform: scaleY(1);
     transition: transform 0.5s linear;
-    //animation: translate 0.7s ease forwards;
   }
-  /* @keyframes translate {
-    0% {
-      transform: translateY(-160%);
-      opacity: 0;
-    }
-    100% {
-      transform: translateY(-7px);
-      opacity: 1;
-    }
-  } */
   &.textHide {
     transform: scaleY(0);
-    transition: transform 0.5s linear;
-    //animation: reverseTranslate 1.5s linear forwards;
+    transition: transform 0.1s linear;
   }
-  /* @keyframes reverseTranslate {
-    0% {
-      transform: translateY(-7px);
-      opacity: 1;
-    }
-    100% {
-      transform: translateY(-160%);
-      opacity: 0;
-    }
-  } */
 }
 
 @media screen and (width <= $screen-tablet) {
   .collapseCard {
     width: 100%;
+    &.hideCard {
+      max-height: 30px;
+    }
   }
   .bannerCollapseCard {
     font-size: 13px;
@@ -93,5 +74,8 @@
   }
   .collapseText {
     font-size: 12px;
+  }
+  .dropdown {
+    width: 16px;
   }
 }

@@ -26,7 +26,7 @@
 
 .apartmentTags {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(115px, 160px));
+  grid-template-columns: repeat(auto-fit, minmax(115px, 165px));
   gap: 1rem;
 }
 
@@ -81,7 +81,7 @@
     margin-top: 10px;
   }
   .apartmentTags {
-    grid-template-columns: repeat(auto-fit, minmax(84px, 103px));
+    grid-template-columns: repeat(auto-fit, minmax(84px, 118px));
     height: auto;
   }
   .owner {

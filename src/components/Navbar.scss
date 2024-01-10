@@ -40,7 +40,7 @@
   .navbar {
     margin: 20px;
     &__link {
-      gap: 20px;
+      gap: 8px;
       text-transform: uppercase;
       & a {
         font-size: 12px;
@@ -50,6 +50,6 @@
 }
 @media screen and (width <= $screen-mobile) {
   .navbar__imgLogo {
-    width: 5rem;
+    width: 140px;
   }
 }
