@@ -6,13 +6,13 @@ import React from "react";
 
 const Layout = () => {
   return (
-    <div>
+    <>
       <Navbar />
       <main>
         <Outlet />
       </main>
       <Footer />
-    </div>
+    </>
   );
 };
 
