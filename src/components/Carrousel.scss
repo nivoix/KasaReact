@@ -5,7 +5,11 @@
   height: 415px;
   background-color: $tertiary-color;
 }
-
+.noPictures {
+  border-radius: 25px;
+  width: 100%;
+  height: 100%;
+}
 .carrouselImg img {
   position: absolute;
   object-fit: cover;
@@ -18,7 +22,6 @@
     transition: opacity 1.2s linear;
   }
 }
-
 .drop {
   position: absolute;
   top: 43%;
@@ -33,7 +36,6 @@
 .left {
   left: 1%;
 }
-
 .counterimage {
   position: absolute;
   bottom: 1%;
@@ -42,7 +44,6 @@
   font-weight: 500;
   font-size: 18px;
 }
-
 @media screen and (width <= $screen-tablet) {
   .apartmentCarroussel {
     height: 255px;

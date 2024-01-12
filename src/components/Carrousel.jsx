@@ -3,6 +3,7 @@ import { useState } from "react";
 import "./Carrousel.scss";
 import dropleft from "../assets/dropLeft.png";
 import dropright from "../assets/dropRight.png";
+import noPictures from "../assets/noPictures.png";
 
 const Carrousel = (props) => {
   const [currentPicture, setcurrentPicture] = useState(0);
@@ -21,7 +22,7 @@ const Carrousel = (props) => {
     setcurrentPicture(newIndex);
   };
 
-  return (
+  return props.images.length > 0 ? (
     <div className="apartmentCarroussel">
       <div className="carrouselImg">
         {props.images.map((image, i) => (
@@ -55,6 +56,8 @@ const Carrousel = (props) => {
         ""
       )}
     </div>
+  ) : (
+    <img src={noPictures} alt="no picture" className="noPictures" />
   );
 };
 

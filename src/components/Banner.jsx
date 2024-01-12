@@ -1,6 +1,7 @@
 import "./Banner.scss";
 import React from "react";
 
+//ligne 13: affichage conditionnel du titre uniquement si les props.title sont passées
 const Banner = (props) => {
   return (
     <div className="cardBanner">
@@ -18,5 +19,4 @@ const Banner = (props) => {
     </div>
   );
 };
-//ligne 13: affichage conditionnel du titre uniquement si les props.title sont passées
 export default Banner;

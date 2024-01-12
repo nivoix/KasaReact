@@ -9,20 +9,17 @@
   grid-template-columns: 30% 30% 30%;
   gap: 3rem;
 }
-
 @media screen and (width <= 1024px) {
   .apartmentGrid {
     padding: 44px;
     gap: 44px;
   }
 }
-
 @media screen and (width <= $screen-tablet) {
   .apartmentGrid {
     grid-template-columns: 45% 45%;
   }
 }
-
 @media screen and (width <= $screen-mobile) {
   .apartmentGrid {
     grid-template-columns: 100%;

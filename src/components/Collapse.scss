@@ -23,7 +23,6 @@
     transition: transform 0.3s linear;
   }
 }
-
 .bannerCollapseCard {
   cursor: pointer;
   height: 52px;
@@ -35,7 +34,6 @@
   justify-content: space-between;
   align-items: center;
 }
-
 .collapseText {
   transform-origin: top;
   z-index: -1;
@@ -60,7 +58,6 @@
     transition: transform 0.1s linear;
   }
 }
-
 @media screen and (width <= $screen-tablet) {
   .collapseCard {
     width: 100%;

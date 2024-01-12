@@ -11,7 +11,6 @@ const router = createBrowserRouter([
     children: routes,
   },
 ]);
-
 // React.Suspense composant doit être plus haut que le composant paresseux
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>

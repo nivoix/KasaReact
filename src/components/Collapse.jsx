@@ -6,8 +6,6 @@ import "./Collapse.scss";
 const Collapse = (props) => {
   const [visible, setvisible] = useState(false);
 
-  //const collapseTextShow = visible ? "textVisible" : "collapseText";
-
   const show = () => {
     setvisible(!visible);
   };
@@ -22,9 +20,11 @@ const Collapse = (props) => {
           className={`dropdown ${visible ? "up" : "down"}`}
         />
       </div>
-      <div className={`collapseText ${visible ? "textVisible" : "textHide"}`}>
-        {props.text}
-      </div>
+      {
+        <div className={`collapseText ${visible ? "textVisible" : "textHide"}`}>
+          {props.text}
+        </div>
+      }
     </div>
   );
 };
