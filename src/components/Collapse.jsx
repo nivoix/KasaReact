@@ -3,7 +3,7 @@ import { useState } from "react";
 import dropdown from "../assets/dropdown.png";
 import "./Collapse.scss";
 
-const Collapse = (props) => {
+const Collapse = ({ title, text }) => {
   const [visible, setvisible] = useState(false);
 
   const show = () => {
@@ -13,7 +13,7 @@ const Collapse = (props) => {
   return (
     <div className={`collapseCard ${visible ? "showCard" : "hideCard"}`}>
       <div className="bannerCollapseCard" onClick={show}>
-        {props.title}
+        {title}
         <img
           src={dropdown}
           alt="dropdown"
@@ -22,7 +22,7 @@ const Collapse = (props) => {
       </div>
       {
         <div className={`collapseText ${visible ? "textVisible" : "textHide"}`}>
-          {props.text}
+          {text}
         </div>
       }
     </div>

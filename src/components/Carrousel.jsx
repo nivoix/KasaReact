@@ -5,27 +5,25 @@ import dropleft from "../assets/dropLeft.png";
 import dropright from "../assets/dropRight.png";
 import noPictures from "../assets/noPictures.png";
 
-const Carrousel = (props) => {
+const Carrousel = ({ images }) => {
   const [currentPicture, setcurrentPicture] = useState(0);
 
   const next = () => {
-    const isLastSlide = currentPicture === props.images.length - 1;
+    const isLastSlide = currentPicture === images.length - 1;
     const newIndex = isLastSlide ? 0 : currentPicture + 1;
     setcurrentPicture(newIndex);
   };
 
   const previous = () => {
     const isFirstSlide = currentPicture === 0;
-    const newIndex = isFirstSlide
-      ? props.images.length - 1
-      : currentPicture - 1;
+    const newIndex = isFirstSlide ? images.length - 1 : currentPicture - 1;
     setcurrentPicture(newIndex);
   };
 
-  return props.images.length > 0 ? (
+  return images.length > 0 ? (
     <div className="apartmentCarroussel">
       <div className="carrouselImg">
-        {props.images.map((image, i) => (
+        {images.map((image, i) => (
           <img
             src={image}
             key={i}
@@ -34,7 +32,7 @@ const Carrousel = (props) => {
           />
         ))}
       </div>
-      {props.images.length > 1 ? (
+      {images.length > 1 ? (
         <>
           <img
             className="drop left"
@@ -49,7 +47,7 @@ const Carrousel = (props) => {
             onClick={next}
           ></img>
           <p className="counterimage">
-            {currentPicture + 1}/{props.images.length}
+            {currentPicture + 1}/{images.length}
           </p>
         </>
       ) : (

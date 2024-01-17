@@ -2,15 +2,15 @@ import React from "react";
 import "./ApartmentCard.scss";
 import { NavLink } from "react-router-dom";
 
-const ApartmentCard = (props) => {
+const ApartmentCard = ({ id, title, imageURL }) => {
   return (
-    <NavLink to={`/Apartment/${props.id}`} className="apartmentCard">
+    <NavLink to={`/Apartment/${id}`} className="apartmentCard">
       <img
         className="apartmentCard__Img"
-        src={props.imageURL}
+        src={imageURL}
         alt="apartment photo"
       />
-      <h2 className="apartmentCard__Title">{props.title}</h2>
+      <h2 className="apartmentCard__Title">{title}</h2>
     </NavLink>
   );
 };

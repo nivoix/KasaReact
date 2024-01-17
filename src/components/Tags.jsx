@@ -1,10 +1,10 @@
 import React from "react";
 import "./Tags.scss";
 
-const Tags = (props) => {
+const Tags = ({ tags }) => {
   return (
     <>
-      {props.tags.map((tag, index) => (
+      {tags.map((tag, index) => (
         <span className="tag" key={index}>
           {tag}
         </span>
