@@ -1,7 +1,7 @@
 import React from "react";
 import redStar from "../assets/redStar.png";
 import greyStar from "../assets/greyStar.png";
-import "./stars.scss";
+import "./Stars.scss";
 
 const Stars = ({ rating }) => {
   return (
